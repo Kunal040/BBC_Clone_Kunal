@@ -1,0 +1,307 @@
+body{
+  margin:0;
+  box-sizing:border-box;
+  
+}
+
+
+.fixed-width{
+  width:990px;
+  margin:0px auto;
+  
+}
+.topbar{
+  background-color:white;
+  height:41px;
+  width:100%;
+  color:black;
+  position:fixed;
+  
+}
+#bbc{
+  float:left;
+  padding:10px;
+  margin-left:80px;
+  height:23px;
+  width:85px;
+  border-right:1px solid #cccccc;
+  }
+.topmargin{
+  background-color:#bb1919;
+  position:fixed;
+  width:100%;
+  height:55px;
+  margin-top:41px;
+}
+.omargin{
+  background-color:#a91717;
+  width:100%;
+  height:35px;
+  margin-top:96.49px;
+  position:fixed;
+  
+}
+
+.signin{
+  float:left;
+  margin:0px;
+ padding:10px;
+   border-right:1px solid #cccccc;
+ 
+ 
+}
+.signin img{
+  width:22px;
+  height:21px;
+  float:left;
+  
+}
+.signin p{
+  margin:0px;
+  padding-left:10px;
+  padding-top:2px;
+  padding-right:60px;
+  float:left;
+ }
+.signin a{
+  color:#33336c;
+}
+#ulist ul{
+  margin:0px;
+  list-style:none;
+  padding-top:2px;
+  
+  }
+#ulist ul li{
+  float:left;
+  padding:10px;
+   border-right:1px solid #cccccc;
+  padding-bottom:5.45px;
+  padding-top:11px;
+  color:black;
+  
+  
+  }
+#search #in{
+background-color:#e4e4e4;
+ height:22px;
+  width:190px;
+  margin-left:10px;
+  margin-top:8px;
+  font-style:bold;
+  text-decoration-style:bold;
+  border-style:none;
+  float:left;
+  padding:0px;
+ 
+}
+#search #searchimg{
+  float:left;
+  padding:0px;
+  margin-top:12px;
+  margin-left:960px;
+  position:fixed;
+  
+  }
+  
+#newsbar img{
+  margin-top:12px;
+  margin-left:90px;
+ }
+.omargin #categorybar ul{
+  list-style:none;
+  color:#f4ffff;
+  margin:0px;
+  margin-left:38px;
+  
+  
+}
+.omargin #categorybar ul li{
+  float:left;
+  padding-right:13px;
+  padding-left:13px;
+  border-right:1px solid #bb4545;
+  padding-bottom:3px ;
+ margin-top:9px;
+  
+    
+}
+#categorybar #l2{
+  border-right:none;
+}
+#categorybar a{
+  color:#f4ffff;
+}
+.locationbar{
+  width:100%;
+  height:32px;
+  background-color:#ffffff;
+  position:fixed;
+  margin-top:131px;
+  margin-left:0px;
+  
+}
+.locationbar .country ul{
+  list-style:none;
+  margin:10px;
+  padding-left:70px;
+}
+.locationbar .country ul li{
+  float:left;
+  padding-right:13px;
+  padding-left:13px;
+  height:18px;
+  border-right:1px solid #dcdcdc;
+  font-family:arial;
+  font-size:14px;
+  color:black;
+  
+}
+.country ul #uk{
+font-weight: bold; 
+  font-size:1.2em;
+  border-bottom:4px solid #bb1919;
+  padding-bottom:2px;
+}
+.country ul #pol{
+  border-right:none;
+}
+
+.content{
+  align-content:center;
+  padding:0px;
+  
+}
+.content #news{
+ 
+  margin:175px;
+  margin-left:105px;
+  padding:0px;
+  height:80px;
+  width:580px;
+     
+}
+.content #n1 h1{
+  position:relative;
+    
+}
+.content #n1 #a1{
+  color:black;
+text-decoration:none;
+  
+}
+ 
+.content #news #a1:hover{
+  color:#1167a8;
+}
+#ncont #p2{
+ margin:0px;
+ width:204px;
+ position:absolute;
+ font-family:helvetica;
+ line-height:1.3em;
+ font-size:14px;
+  }
+#ncont img{
+  margin:0 0 0 248px;
+  padding:0 0 0 0;
+  float:left;
+  position:absolute;
+  
+        
+}
+ #p3{
+  position:absolute;
+   margin-top:110px;
+   padding:0px;
+   width:239px;
+   font-family:inherit;
+   font-size:14px;
+  
+  
+ }
+#p3 a{
+   text-decoration:none;
+}
+.sidetag{
+  border-left:1px solid #B4B4B4;
+  width:203px;
+  position:absolute;
+  margin-left:765px;
+  top:180px;
+}
+.sidetag h2{
+   margin:0px;
+  padding:0px 0px 15px 15px;
+  bottom:250px;
+}
+.sidetag img{
+  padding:0 0 0 10px;
+  bottom:250px;
+  
+}
+  #categorybar li:hover{
+   border-bottom:5px solid white;
+   
+    
+    
+}
+#categorybar #l1:hover{
+  background-color:black;
+  border-bottom:none;
+  padding-bottom:10px;
+  padding-top:9px;
+  margin-top:0px;
+ 
+}
+#ulist #i1:hover{
+  border-bottom:4px solid brown;
+}
+#ulist #i2:hover{
+  border-bottom:4px solid yellow;
+}
+#ulist #i3:hover{
+  border-bottom:4px solid lightblue;
+}
+#ulist #i4:hover{
+  border-bottom:4px solid blue;
+}
+#ulist #i5:hover{
+  border-bottom:4px solid black;
+}
+#ulist #i6:hover{
+  border-bottom:4px solid black;
+}
+#ulist #i7:hover{
+  border-bottom:4px solid black;
+  }
+.signin:hover{
+  border-bottom:4px solid slateblue;
+  padding-bottom:4.7px;
+}
+
+.country ul li:hover{
+  border-bottom:4px solid #bb1919;
+   padding-bottom:2px;
+}
+footer{
+ margin-top:340px;
+ border-top:1px solid;
+  text-align:center;
+  font-weight:bold;
+ 
+ }
+footer i{
+  color:#DC143C;
+  font-size:18px;
+  padding-left:2px;
+  
+}
+
+
+
+
+
+
+
+
